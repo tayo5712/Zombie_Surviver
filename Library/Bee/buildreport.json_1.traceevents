@@ -1,0 +1,575 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1677662595232570, "dur": 4094290, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677662595232824, "dur": 5261, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677662595238087, "dur": 92156, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677662595330245, "dur": 813633, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677662596143880, "dur": 3171607, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677662599315489, "dur": 11370, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677662599327413, "dur": 11, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1677662595650103, "dur": 469437, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677662595651102, "dur": 73133, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677662596102643, "dur": 4978, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677662596107625, "dur": 11908, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677662596108304, "dur": 9807, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677662596124360, "dur": 1278, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677662596123175, "dur": 2488, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677662599345449, "dur": 595, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1677662596193609, "dur":2338, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677662596195957, "dur":84, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1677662596196088, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1677662596196104, "dur":342, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1677662596196483, "dur":563, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677662596197046, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677662599292270, "dur":131, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677662599292401, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677662599292413, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677662599292414, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677662599292421, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677662599292422, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677662599292428, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677662599292429, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677662599292434, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677662599292436, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677662599292442, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677662599292443, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677662599292449, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677662599292463, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677662599292510, "dur":2122, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1677662596196883, "dur":184, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677662596197069, "dur":3240, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677662596200318, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677662596200320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677662596201523, "dur":817, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677662596202342, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677662596202368, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677662596202536, "dur":3280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677662596205818, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1677662596205856, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677662596205860, "dur":36014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1677662596241891, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1677662596241922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677662596241942, "dur":1575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1677662596243534, "dur":11265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1677662596254801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677662596254805, "dur":1484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1677662596256305, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1677662596256331, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677662596256334, "dur":140228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1677662596396582, "dur":1197486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/nvngx_dlss.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662597594070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677662597594074, "dur":12616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/nvngx_dlss.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662597606708, "dur":129409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662597736121, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677662597736126, "dur":2658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662597738808, "dur":59577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662597798388, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677662597798393, "dur":2121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662597800532, "dur":25971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662597826506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677662597826511, "dur":8469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662597835000, "dur":40626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662597875630, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677662597875635, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662597876910, "dur":9592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662597886506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677662597886511, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662597887761, "dur":30902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662597918667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677662597918672, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662597920356, "dur":30492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662597950851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677662597950854, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662597952085, "dur":143168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662598095256, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677662598095262, "dur":2701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662598097981, "dur":24743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662598122728, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677662598122734, "dur":4681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662598127508, "dur":65974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662598193513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677662598194056, "dur":6539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662598200612, "dur":36078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662598236694, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677662598236700, "dur":7846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662598244563, "dur":22000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662598266568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677662598266573, "dur":3536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662598270167, "dur":396117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662598666288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677662598666293, "dur":41737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677662598708049, "dur":584223, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662596197107, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662596197107, "dur":3262, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662596200370, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1677662596200416, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662596202654, "dur":40097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1677662596242768, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1677662596242795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662596242799, "dur":20075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1677662596262903, "dur":891792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597154698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662597154722, "dur":4971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597159743, "dur":58185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597217930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662597217934, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597219497, "dur":25545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597245045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662597245051, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597246338, "dur":35253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597281595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662597281600, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597283041, "dur":86530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597369575, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662597369580, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597371119, "dur":37521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597408643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662597408648, "dur":1990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597410653, "dur":60893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597471549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662597471554, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597472811, "dur":29398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597502211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662597502215, "dur":1544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597503773, "dur":354062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597857839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662597857843, "dur":1908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597859769, "dur":9834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597869606, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662597869612, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597870836, "dur":30659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597901499, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662597901505, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597903437, "dur":15789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597919229, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662597919234, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597920872, "dur":23563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597944439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662597944444, "dur":1249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662597945710, "dur":123679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662598069393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662598069398, "dur":2337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662598071756, "dur":40137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662598111896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662598111901, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662598113639, "dur":59976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662598173618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662598173624, "dur":6131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662598179774, "dur":140038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662598319816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662598319821, "dur":7374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662598327231, "dur":50012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662598377247, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662598377253, "dur":2114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677662598379384, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1677662598379598, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662598380430, "dur":1647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1677662598382097, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/GI/level0/70/7060853e452f0729a497621ffac83953.vis" }}
+,{ "pid":12345, "tid":2, "ts":1677662598382127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662598382726, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/GI/level0/70/7060853e452f0729a497621ffac83953.vis" }}
+,{ "pid":12345, "tid":2, "ts":1677662598384382, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/GI/level0/70/7060853e452f0729a497621ffac83953.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1677662598384399, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662598384402, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/GI/level0/70/7060853e452f0729a497621ffac83953.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1677662598385803, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/GI/level0/70/7060853e452f0729a497621ffac83953.ecm" }}
+,{ "pid":12345, "tid":2, "ts":1677662598385825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662598385829, "dur":78033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/GI/level0/70/7060853e452f0729a497621ffac83953.ecm" }}
+,{ "pid":12345, "tid":2, "ts":1677662598463880, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/GI/level0/45/45bd230d71ce538dfc6bd679013e0e1b.vis" }}
+,{ "pid":12345, "tid":2, "ts":1677662598463897, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662598464060, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/GI/level0/45/45bd230d71ce538dfc6bd679013e0e1b.vis" }}
+,{ "pid":12345, "tid":2, "ts":1677662598465526, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/GI/level0/45/45bd230d71ce538dfc6bd679013e0e1b.rsc.sse" }}
+,{ "pid":12345, "tid":2, "ts":1677662598465553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662598465573, "dur":1547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/GI/level0/45/45bd230d71ce538dfc6bd679013e0e1b.rsc.sse" }}
+,{ "pid":12345, "tid":2, "ts":1677662598467139, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/GI/level0/45/45bd230d71ce538dfc6bd679013e0e1b.ecm" }}
+,{ "pid":12345, "tid":2, "ts":1677662598467158, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662598467162, "dur":29978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/GI/level0/45/45bd230d71ce538dfc6bd679013e0e1b.ecm" }}
+,{ "pid":12345, "tid":2, "ts":1677662598497159, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1677662598497176, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662598497179, "dur":3883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1677662598501080, "dur":181580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1677662598682663, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677662598682668, "dur":1173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1677662598683857, "dur":608419, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677662596196992, "dur":112, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677662596197104, "dur":3267, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677662596200371, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1677662596200421, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677662596202727, "dur":39708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1677662596242455, "dur":19609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1677662596262068, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677662596262074, "dur":1567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1677662596263656, "dur":2451311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677662598714970, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677662598714975, "dur":22607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677662598737601, "dur":554667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662596197224, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662596197225, "dur":3147, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662596200372, "dur":25014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1677662596225390, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662596225395, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1677662596226859, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1677662596226891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662596227173, "dur":14410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1677662596241609, "dur":10647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1677662596252260, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662596252266, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1677662596253906, "dur":928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1677662596254836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662596254840, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1677662596256407, "dur":205582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662596461993, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662596462228, "dur":1935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662596464182, "dur":666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie.exe" }}
+,{ "pid":12345, "tid":4, "ts":1677662596464850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662596464853, "dur":1490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie.exe" }}
+,{ "pid":12345, "tid":4, "ts":1677662596466359, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1677662596466388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662596466533, "dur":108436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1677662596574988, "dur":31530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662596606521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662596606544, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662596607797, "dur":31030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662596638830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662596638834, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662596640237, "dur":77483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662596717724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662596717729, "dur":1333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662596719078, "dur":23024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662596742106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662596742111, "dur":1354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662596743482, "dur":91192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662596834678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662596834683, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662596835998, "dur":84006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662596920008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662596920013, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662596921306, "dur":73206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662596994514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662596994519, "dur":2070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662596996607, "dur":72756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597069366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662597069371, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597070626, "dur":41410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597112040, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662597112045, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597113291, "dur":36642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597149937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662597149942, "dur":1280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597151237, "dur":30758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597181998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662597182002, "dur":3048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597185065, "dur":22406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597207475, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662597207483, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597208807, "dur":16339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597225150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662597225155, "dur":1561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597226731, "dur":45020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597271782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662597271788, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597273287, "dur":96576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597369866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662597369869, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597371297, "dur":62612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597433912, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662597433917, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597435255, "dur":66725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597501984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662597501989, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597503634, "dur":41519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597545157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662597545162, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597546512, "dur":34558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597581074, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662597581080, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597582562, "dur":155406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597737971, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662597737976, "dur":3227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597741219, "dur":109028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597850251, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662597850257, "dur":1691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597851967, "dur":49540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597901510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662597901514, "dur":1800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597903337, "dur":39948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597943289, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662597943295, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662597944638, "dur":280473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662598225115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662598225120, "dur":22616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662598247755, "dur":82173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662598329932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662598329937, "dur":1711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662598331667, "dur":15920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662598347591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662598347596, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662598349186, "dur":33226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662598382414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662598382418, "dur":1862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677662598384297, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/GI/level0/70/7060853e452f0729a497621ffac83953.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1677662598384317, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662598384357, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/GI/level0/70/7060853e452f0729a497621ffac83953.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1677662598385917, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/GI/level0/70/7060853e452f0729a497621ffac83953.caw" }}
+,{ "pid":12345, "tid":4, "ts":1677662598385943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662598385947, "dur":76173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/GI/level0/70/7060853e452f0729a497621ffac83953.caw" }}
+,{ "pid":12345, "tid":4, "ts":1677662598462139, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/GI/level0/53/53542fc3682b7aef5b35c16887fff43d.caw" }}
+,{ "pid":12345, "tid":4, "ts":1677662598462156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662598462162, "dur":4267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/GI/level0/53/53542fc3682b7aef5b35c16887fff43d.caw" }}
+,{ "pid":12345, "tid":4, "ts":1677662598466446, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/GI/level0/45/45bd230d71ce538dfc6bd679013e0e1b.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1677662598466468, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662598466471, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/GI/level0/45/45bd230d71ce538dfc6bd679013e0e1b.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1677662598467950, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1677662598467970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662598467973, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1677662598470093, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1677662598470107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662598470110, "dur":38765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1677662598508892, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1677662598508909, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677662598508912, "dur":166583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1677662598675640, "dur":616626, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662596197342, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662596197343, "dur":3027, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662596200370, "dur":35104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1677662596235477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662596235483, "dur":7333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1677662596242833, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1677662596242859, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662596243169, "dur":11319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1677662596254508, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1677662596254535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662596254540, "dur":12093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1677662596266653, "dur":225042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1677662596491699, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662596491703, "dur":1842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1677662596493564, "dur":109163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662596602730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662596602916, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662596604174, "dur":34649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662596638826, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662596638831, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662596640212, "dur":47158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662596687374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662596687379, "dur":3700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662596691097, "dur":62866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662596753967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662596753972, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662596755244, "dur":27905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662596783153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662596783158, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662596784578, "dur":138072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662596922652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662596922656, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662596923808, "dur":44619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662596968431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662596968436, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662596969805, "dur":28109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662596997917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662596997923, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662596999204, "dur":56445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597055653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662597055658, "dur":1740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597057415, "dur":73220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597130638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662597130668, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597132032, "dur":48904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597180940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662597180945, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597182325, "dur":15647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597197976, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662597197981, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597199395, "dur":25770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597225168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662597225171, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597226720, "dur":36429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597263152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662597263158, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597264497, "dur":24827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597289328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662597289333, "dur":6256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597295605, "dur":64248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597359856, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662597359861, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597361241, "dur":30871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597392116, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662597392178, "dur":1857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597394050, "dur":14589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597408643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662597408648, "dur":1911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597410574, "dur":27390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597437968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662597437973, "dur":1280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597439267, "dur":50809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597490106, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662597490112, "dur":1233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597491360, "dur":231055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597722451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662597722457, "dur":12714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597735188, "dur":44543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597779734, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662597779739, "dur":1335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597781092, "dur":15938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597797034, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662597797039, "dur":1906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597798965, "dur":84476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597883445, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662597883450, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597884783, "dur":23013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597907799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662597907804, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597908990, "dur":17669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597926692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662597926697, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597928029, "dur":22632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597950665, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662597950670, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662597951993, "dur":144261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662598096257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662598096262, "dur":2370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662598098648, "dur":31886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662598130538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662598130543, "dur":6220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662598136781, "dur":54817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662598191602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662598191607, "dur":15941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662598207575, "dur":74309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662598281888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662598281893, "dur":3209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662598285119, "dur":11199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662598296323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662598296328, "dur":4656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662598301002, "dur":987826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662599288832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677662599288838, "dur":3391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677662599292246, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1677662599292248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662596197463, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662596197463, "dur":2876, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662596200339, "dur":42729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1677662596243131, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662596243304, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1677662596244459, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1677662596244484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662596244501, "dur":10288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1677662596254806, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1677662596254835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662596254839, "dur":14524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1677662596269380, "dur":465629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/NVUnityPlugin.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662596735012, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662596735017, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/NVUnityPlugin.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662596737123, "dur":169831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662596906958, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662596906964, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662596908265, "dur":83211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662596991480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662596991485, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662596992907, "dur":13910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597006820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662597006824, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597008098, "dur":93403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597101504, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662597101509, "dur":2053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597103579, "dur":22078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597125661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662597125666, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597126991, "dur":71112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597198105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662597198109, "dur":1335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597199459, "dur":18378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597217841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662597217846, "dur":1517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597219380, "dur":34641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597254025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662597254030, "dur":1528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597255575, "dur":76243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597331822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662597331827, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597333207, "dur":58905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597392116, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662597392148, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597393994, "dur":89605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597483603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662597483608, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597484958, "dur":60974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597545934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662597545938, "dur":1331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597547284, "dur":46226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597593514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662597593519, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597594971, "dur":139451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597734426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662597734431, "dur":4399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597738846, "dur":77641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597816491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662597816496, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597817782, "dur":40873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597858658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662597858663, "dur":1396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597860075, "dur":30572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597890651, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662597890656, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597891904, "dur":9603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597901509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662597901513, "dur":1825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597903355, "dur":36707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597940067, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662597940073, "dur":1816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597941907, "dur":17363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597959274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662597959280, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662597960712, "dur":210856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662598171571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662598171577, "dur":14784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662598186380, "dur":161701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662598348085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662598348089, "dur":3049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662598351155, "dur":20984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662598372143, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662598372148, "dur":7269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677662598379434, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1677662598379451, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662598379467, "dur":5300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1677662598384783, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/GI/level0/70/7060853e452f0729a497621ffac83953.iws.sse" }}
+,{ "pid":12345, "tid":6, "ts":1677662598384799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662598384803, "dur":1500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/GI/level0/70/7060853e452f0729a497621ffac83953.iws.sse" }}
+,{ "pid":12345, "tid":6, "ts":1677662598386320, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/GI/level0/53/53542fc3682b7aef5b35c16887fff43d.vis" }}
+,{ "pid":12345, "tid":6, "ts":1677662598386338, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662598386505, "dur":1941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/GI/level0/53/53542fc3682b7aef5b35c16887fff43d.vis" }}
+,{ "pid":12345, "tid":6, "ts":1677662598388465, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/GI/level0/53/53542fc3682b7aef5b35c16887fff43d.rsc.sse" }}
+,{ "pid":12345, "tid":6, "ts":1677662598388482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662598388577, "dur":1781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/GI/level0/53/53542fc3682b7aef5b35c16887fff43d.rsc.sse" }}
+,{ "pid":12345, "tid":6, "ts":1677662598390376, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/GI/level0/53/53542fc3682b7aef5b35c16887fff43d.rgb" }}
+,{ "pid":12345, "tid":6, "ts":1677662598390393, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662598390398, "dur":1280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/GI/level0/53/53542fc3682b7aef5b35c16887fff43d.rgb" }}
+,{ "pid":12345, "tid":6, "ts":1677662598391696, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/GI/level0/53/53542fc3682b7aef5b35c16887fff43d.iws.sse" }}
+,{ "pid":12345, "tid":6, "ts":1677662598391713, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662598391717, "dur":1268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/GI/level0/53/53542fc3682b7aef5b35c16887fff43d.iws.sse" }}
+,{ "pid":12345, "tid":6, "ts":1677662598393002, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/GI/level0/53/53542fc3682b7aef5b35c16887fff43d.ecm" }}
+,{ "pid":12345, "tid":6, "ts":1677662598393017, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662598393021, "dur":72938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/GI/level0/53/53542fc3682b7aef5b35c16887fff43d.ecm" }}
+,{ "pid":12345, "tid":6, "ts":1677662598465975, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/GI/level0/45/45bd230d71ce538dfc6bd679013e0e1b.rgb" }}
+,{ "pid":12345, "tid":6, "ts":1677662598465991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662598465995, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/GI/level0/45/45bd230d71ce538dfc6bd679013e0e1b.rgb" }}
+,{ "pid":12345, "tid":6, "ts":1677662598467452, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/GI/level0/45/45bd230d71ce538dfc6bd679013e0e1b.caw" }}
+,{ "pid":12345, "tid":6, "ts":1677662598467468, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662598467472, "dur":40804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/GI/level0/45/45bd230d71ce538dfc6bd679013e0e1b.caw" }}
+,{ "pid":12345, "tid":6, "ts":1677662598508296, "dur":11361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1677662598519667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662598519671, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1677662598520831, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1677662598520873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662598520877, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1677662598522214, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1677662598522228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662598522231, "dur":45434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1677662598567686, "dur":456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Zombie_Single/Zombie_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1677662598568144, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677662598568149, "dur":1444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Zombie_Single/Zombie_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1677662598569609, "dur":722656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677662599296922, "dur":2102, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1677662599346093, "dur": 1086, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677662599327401, "dur": 19807, "ph": "X", "name": "Write chrome-trace events", "args": {} },
